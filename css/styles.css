@@ -1,61 +1,4 @@
-:root {
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
-  --accent-color: #2196f3;
-}
-.page {
-  font-family: var(--main-font);
-  background-color: #ffffff;
-  color: #212121;
-}
-/* =====components===== */
-.site-nav-link:hover,
-.site-nav-link:focus,
-.contacts-mail:hover,
-.contacts-tel:hover,
-.contacts-footer-mail:hover,
-.contacts-footer-mail:focus,
-.contacts-footer-tel:hover,
-.contacts-footer-tel:focus,
-.contacts-footer-link:hover,
-.contacts-footer-link:focus {
-  color: var(--accent-color);
-}
-.work-title,
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1, 167;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-/* =====end-components===== */
-/* =====header===== */
-.logo-header {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1, 192;
-  letter-spacing: 0.03em;
-
-  color: #2196f3;
-}
-.site-nav-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1, 143;
-  letter-spacing: 0.02em;
-}
-.contacts-mail,
-.contacts-tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1, 143;
-  letter-spacing: 0.02em;
-
-  color: #757575;
-}
-/* =====end-header===== */
+/* =====maim page===== */
 /* =====hero===== */
 .hero {
   background-color: #2f303a;
@@ -67,7 +10,6 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 .hero-button {
@@ -78,8 +20,8 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
   color: #ffffff;
+  background-color: #2196f3;
 }
 /* =====end-hero===== */
 /* =====section-features===== */
@@ -94,13 +36,19 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 714;
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 /* =====end-section-features===== */
 /* =====section-work===== */
+.work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 /* =====end-section-work */
 /* =====section-team===== */
 .team {
@@ -110,7 +58,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 188;
-
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -120,34 +67,44 @@
   line-height: 1, 188;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 /* =====end-section-team===== */
-/* =====footer===== */
-.footer {
-  background-color: #2f303a;
+/* =====end main page===== */
+/* =====portfolio page===== */
+/* =====portfolio===== */
+.gallery-name {
+  display: none;
 }
-.logo-footer {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1, 192;
-  letter-spacing: 0.03em;
-
-  color: #2196f3;
-}
-.contacts-footer-list {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1, 714;
-
+.btn-gallery {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 625px;
+  text-align: center;
   letter-spacing: 0.03em;
 }
-.contacts-footer-link {
+.btn-gallery:hover,
+.btn-gallery:focus {
   color: #ffffff;
 }
-.contacts-footer-mail,
-.contacts-footer-tel {
-  color: rgba(255, 255, 255, 0.6);
+.btn-gallery:hover,
+.btn-gallery:focus {
+  background-color: #2196f3;
 }
+/* =====end-portfolio===== */
+/* =====filtrs===== */
+.filter-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.filter-btn-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 875x;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* =====end-filtrs===== */
+/* =====end portfolio page===== */
