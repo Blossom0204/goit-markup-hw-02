@@ -1,6 +1,7 @@
 :root {
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --secondary-color: #ffffff;
 }
 .page {
   font-family: "Roboto", sans-serif;
@@ -29,7 +30,8 @@
   font-size: 26px;
   line-height: 1, 192;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
+  text-decoration: none;
 }
 .logo-header {
   color: #212121;
@@ -39,6 +41,7 @@
   font-size: 14px;
   line-height: 1, 143;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contacts-mail,
 .contacts-tel {
@@ -47,6 +50,7 @@
   line-height: 1, 143;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 /* =====end-header===== */
 
@@ -55,7 +59,7 @@
   background-color: #2f303a;
 }
 .logo-footer {
-  color: #ffffff;
+  color: var(--secondary-color);
 }
 .contacts-footer-list {
   font-weight: 400;
@@ -65,10 +69,12 @@
   font-style: normal;
 }
 .contacts-footer-link {
-  color: #ffffff;
+  color: var(--secondary-color);
+  text-decoration: none;
 }
 .contacts-footer-mail,
 .contacts-footer-tel {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 /* =====end-footer===== */
