@@ -31,10 +31,6 @@
 }
 /* =====end-components===== */
 /* =====header===== */
-.header {
-}
-.navigation {
-}
 .logo-header {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -44,18 +40,11 @@
 
   color: #2196f3;
 }
-.site-nav {
-}
 .site-nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 143;
   letter-spacing: 0.02em;
-}
-
-.site-nav-item {
-}
-.contacts {
 }
 .contacts-mail,
 .contacts-tel {
@@ -94,12 +83,6 @@
 }
 /* =====end-hero===== */
 /* =====section-features===== */
-.features {
-}
-.features-items {
-}
-.features-items-link {
-}
 .features-link-title {
   font-weight: 700;
   font-size: 14px;
@@ -118,21 +101,10 @@
 }
 /* =====end-section-features===== */
 /* =====section-work===== */
-.work {
-}
-
-.work-items {
-}
-.work-link {
-}
 /* =====end-section-work */
 /* =====section-team===== */
 .team {
   background-color: #f5f4fa;
-}
-.team-items {
-}
-.team-link {
 }
 .team-name {
   font-weight: 500;
@@ -164,8 +136,6 @@
   letter-spacing: 0.03em;
 
   color: #2196f3;
-}
-.contacts-footer {
 }
 .contacts-footer-list {
   font-weight: 400;
