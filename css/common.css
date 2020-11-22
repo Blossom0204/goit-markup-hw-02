@@ -1,10 +1,9 @@
 :root {
-  --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
 }
 .page {
-  font-family: var(--main-font);
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #212121;
 }
