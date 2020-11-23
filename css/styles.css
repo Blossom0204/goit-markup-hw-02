@@ -110,3 +110,6 @@
 }
 /* =====end-filtrs===== */
 /* =====end portfolio page===== */
+.site-nav .current {
+  color: var(--accent-color);
+}
