@@ -3,11 +3,18 @@
   --accent-color: #2196f3;
   --secondary-color: #ffffff;
 }
-.page {
+body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #212121;
 }
+.a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
 /* =====components===== */
 .site-nav-link:hover,
 .site-nav-link:focus,
